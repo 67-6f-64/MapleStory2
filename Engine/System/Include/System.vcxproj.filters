@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00.GraphicDev">
+      <UniqueIdentifier>{3c906a51-e7ce-4f88-9272-05eba27d3b16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.TimeMgr">
+      <UniqueIdentifier>{c4da3401-e636-40de-86c0-79e2c6e40031}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Export">
+      <UniqueIdentifier>{aeb396c1-00ee-4e7c-b179-cd32cf6e2481}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Mouse">
+      <UniqueIdentifier>{c1e11d64-ff82-4835-bd61-cf9ee5928532}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.DirectInput">
+      <UniqueIdentifier>{6480f45f-328b-48f5-ba5f-256a7afff3bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.SoundMgr">
+      <UniqueIdentifier>{87264e8f-5209-45fc-a826-729619460aff}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Code\GraphicDev.cpp">
+      <Filter>00.GraphicDev</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\TimeMgr.cpp">
+      <Filter>01.TimeMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Input.cpp">
+      <Filter>03.DirectInput</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Mouse.cpp">
+      <Filter>02.Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SoundMgr.cpp">
+      <Filter>04.SoundMgr</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Code\GraphicDev.h">
+      <Filter>00.GraphicDev</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\TimeMgr.h">
+      <Filter>01.TimeMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Export\Export_System.h">
+      <Filter>99.Export</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Input.h">
+      <Filter>03.DirectInput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Mouse.h">
+      <Filter>02.Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SoundMgr.h">
+      <Filter>04.SoundMgr</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Export\Export_System.inl">
+      <Filter>99.Export</Filter>
+    </None>
+  </ItemGroup>
+</Project>

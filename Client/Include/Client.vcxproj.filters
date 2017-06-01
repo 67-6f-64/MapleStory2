@@ -1,0 +1,751 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\00.MainApp">
+      <UniqueIdentifier>{3d4dab0c-be6d-4ac2-a46b-273cf4acbd9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Scene">
+      <UniqueIdentifier>{a69a7363-cc29-4ec3-8b37-2fbca919cc92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\99.Default">
+      <UniqueIdentifier>{b019eae4-5aab-4e37-a0d1-3830ccff2148}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Include">
+      <UniqueIdentifier>{b433996b-976d-494d-b8c4-83ce1e82abb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Scene\00.Logo">
+      <UniqueIdentifier>{b2a06597-d570-4b52-bfd9-feb46ed4a911}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Scene\01.Stage">
+      <UniqueIdentifier>{92d140db-4412-4b81-b1f7-92a5ec6301e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object">
+      <UniqueIdentifier>{4841059f-e40f-4430-9c3f-7725996eaed7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\00.Logo">
+      <UniqueIdentifier>{039bbb98-8612-4f53-a065-43c273e41a0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\01.Stage">
+      <UniqueIdentifier>{7e79a311-0673-4ac8-968e-39030ccb2a8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\00.Logo\00.LogoBack">
+      <UniqueIdentifier>{8701ec11-7fd3-4b68-a952-423ecb4d482b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\01.Stage\01.Player">
+      <UniqueIdentifier>{a04372ea-a428-4005-9762-5be13af082e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\01.Stage\00.Map">
+      <UniqueIdentifier>{4c5bdb48-750d-41f3-ad0d-368b3db1f553}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\01.Stage\00.Map\02.Wall">
+      <UniqueIdentifier>{50505e4b-bdd4-442e-971b-049769fa0ea9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03.Management">
+      <UniqueIdentifier>{f466e170-7d5f-4ae0-b071-9cbba3d40eff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04.Design">
+      <UniqueIdentifier>{af6d111c-f7fc-4bd9-ab5d-6569d83c6b05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03.Management\00.CollisionMgr">
+      <UniqueIdentifier>{3cfefbb5-f4ec-4c90-9d16-c7f88ecb1815}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03.Management\00.CollisionMgr\00.MouseCol">
+      <UniqueIdentifier>{a4341e8e-7dd4-49b8-badd-0f869328c046}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03.Management\00.CollisionMgr\01.TerrainCol">
+      <UniqueIdentifier>{1158661a-7727-4bf3-96ae-d9f0f6e966fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03.Management\01.Frustum">
+      <UniqueIdentifier>{e88b6d4e-fbe8-4aa7-96b1-7235812e2e29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\01.Stage\00.Map\03.Cube">
+      <UniqueIdentifier>{f2c80fa8-7c88-4451-b977-e00cf6f76c16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03.Management\02.KeyMgr">
+      <UniqueIdentifier>{60f2aa8f-4c9d-4308-95ed-1e57c515db59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\01.Stage\00.Map\01.Ceiling%28천장%29">
+      <UniqueIdentifier>{a9319980-b8ed-4cb4-8d0a-258d3fb60ffe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Scene\02.PartyRoom">
+      <UniqueIdentifier>{be52a936-2b99-4ad5-b198-56c200f8fd31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\03.PartyRoom">
+      <UniqueIdentifier>{561a33fc-48b9-4465-bb39-13377169b7d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\03.PartyRoom\00.Map">
+      <UniqueIdentifier>{26a5e2fd-0afa-42ab-bbd4-cb8fce0ece3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\03.PartyRoom\00.Map\00.Floor">
+      <UniqueIdentifier>{0e4bb69c-6e83-4d2a-a7f3-65190435f8f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\01.Stage\02.UI">
+      <UniqueIdentifier>{f4aea0c2-be1f-46d5-906d-a0e939425643}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Scene\03.PartyFall">
+      <UniqueIdentifier>{6cec5f33-e813-44f0-8700-153b0ae08e2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\01.Stage\00.Map\04.Tile">
+      <UniqueIdentifier>{4a46c3d5-9c70-4f69-9cd5-62b9d40aa519}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\04.PartyFall">
+      <UniqueIdentifier>{8621bbed-c8f1-47d1-a761-b148d95ef49b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\04.PartyFall\00.Map">
+      <UniqueIdentifier>{9909ef0a-fc34-4203-975b-0778bcc1de5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\04.PartyFall\00.Map\00.PartyFallCube">
+      <UniqueIdentifier>{35fb9e17-1999-4d92-8a37-c6e6f570eeaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\04.PartyFall\00.Map\01.PartyFallBackGround">
+      <UniqueIdentifier>{71522a23-a3db-46ea-b0f3-183882a5e745}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\01.Stage\00.Map\05.StageBackground">
+      <UniqueIdentifier>{5c755f17-7cea-42d4-9c29-387c23dc9262}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\03.PartyRoom\00.Map\01.Background">
+      <UniqueIdentifier>{e48bcc84-daf4-4d3a-9f3c-61c16133000e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\04.PartyFall\01.Player">
+      <UniqueIdentifier>{d5eb66f3-7e29-437e-9e9c-3792700732ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\04.PartyFall\02.UI">
+      <UniqueIdentifier>{c26a2df1-8dbf-4bda-8792-d9f6071d103b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\04.PartyFall\02.UI\00.Number%283,2,1%29">
+      <UniqueIdentifier>{92c9de93-9bb4-42de-9d9e-58314f163f63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\04.PartyFall\03.Observer">
+      <UniqueIdentifier>{f72b134f-0c0c-4daf-942f-9df3afe9d920}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\04.PartyFall\03.Observer\00.CubeObserver">
+      <UniqueIdentifier>{b3e4c7ab-e6de-4448-a325-f2bcc1fd52e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\04.PartyFall\03.Observer\01.RoundObserver">
+      <UniqueIdentifier>{6659339f-4ea2-4259-992b-6adbdb9d0c24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\04.PartyFall\02.UI\01.PlayerWin">
+      <UniqueIdentifier>{6e8a84bf-6c11-462d-b384-4b70791ad2aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\03.PartyRoom\00.Map\02.Cube">
+      <UniqueIdentifier>{2f179055-69fe-445c-991a-35b9d308a0b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\99.Common%28공통%29">
+      <UniqueIdentifier>{8fd30dc2-121e-4bb4-ad03-c3d779cf38a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\99.Common%28공통%29\00.Font">
+      <UniqueIdentifier>{3b3bcd0f-6871-4990-a72d-7a5abfbfd31f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\99.Common%28공통%29\01.Chat">
+      <UniqueIdentifier>{bf6b3671-82cf-41db-a09d-3e135474f804}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\99.Common%28공통%29\01.Chat\00.MainUI">
+      <UniqueIdentifier>{ffe7d39c-6541-4250-8219-df34760e8ce3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\04.PartyFall\04.Item">
+      <UniqueIdentifier>{a580d7d3-d019-4f04-a704-7a277bd83ea5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\04.PartyFall\03.Observer\02.ItemObserver">
+      <UniqueIdentifier>{1dad2260-15b8-4d29-8b58-5277a9b0f5b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Scene\04.PartyMaze">
+      <UniqueIdentifier>{cbcd1652-e923-4ca6-b86d-cbdbe549d416}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\05.PartyMaze">
+      <UniqueIdentifier>{f8667de6-e005-4118-9ad1-15a1c03ce804}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\05.PartyMaze\00.Map">
+      <UniqueIdentifier>{ceb77a72-69ed-445d-874b-0472acc09d4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05.ClientNetwork">
+      <UniqueIdentifier>{3da77a3a-50e9-4b21-9f14-8e3f8888a714}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\05.PartyMaze\00.Map\01.MazeWall">
+      <UniqueIdentifier>{791963ac-5a6b-4a15-a042-55c3b999b042}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\99.Common%28공통%29\02.Camera">
+      <UniqueIdentifier>{36462749-3082-4e5a-a22c-bc5a1b80933a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\99.Common%28공통%29\02.Camera\01.FreeCamera">
+      <UniqueIdentifier>{33bcc190-726b-4bbb-8dae-2459df0c3a9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\99.Common%28공통%29\02.Camera\00.StaticCamera">
+      <UniqueIdentifier>{eed0fe65-6491-41c6-ba06-c1741c4d3461}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\05.PartyMaze\01.Player">
+      <UniqueIdentifier>{de4068b1-eb75-46fb-a004-2767659a4053}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\05.PartyMaze\02.Observer">
+      <UniqueIdentifier>{488e7a16-2362-4b46-92f7-e90b02b8ef15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\99.Common%28공통%29\02.Camera\02.DynamicCamera%281인칭%29">
+      <UniqueIdentifier>{9e75b5d0-8653-41b2-aa30-f6c2cbea0bf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\99.Common%28공통%29\02.Camera\03.PlayerLookCamera%283인칭%29">
+      <UniqueIdentifier>{044362b2-fd3a-4e47-8838-9739422f4bca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\05.PartyMaze\00.Map\02.MazeFloor">
+      <UniqueIdentifier>{3707629c-ef79-4143-9898-2aa8cd48d254}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Scene\05.BattleGround">
+      <UniqueIdentifier>{f9e7f4c6-1932-4bed-9ed5-79b95d97cee7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\06.BattleGround">
+      <UniqueIdentifier>{8807314d-c78b-446f-9bd5-3ab44698005a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\06.BattleGround\00.Map">
+      <UniqueIdentifier>{b5b89f94-832d-467a-a60e-5bf1ef41f814}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\06.BattleGround\01.Player">
+      <UniqueIdentifier>{27deb886-b717-413b-98fc-ef67c1476184}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\06.BattleGround\02.Item">
+      <UniqueIdentifier>{a72b0ad8-3b9d-473f-a9a0-490392576939}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\99.Common%28공통%29\03.Map">
+      <UniqueIdentifier>{e77a54e4-d9ad-4b35-b092-31b1ede69816}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\99.Common%28공통%29\03.Map\00.Floor">
+      <UniqueIdentifier>{2c9e9909-33ec-4ce2-bae3-681fd43784aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\99.Common%28공통%29\03.Map\01.SkyBox">
+      <UniqueIdentifier>{41e7e558-665e-4da3-82a5-4e1060a21d58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\06.BattleGround\03.Bullet">
+      <UniqueIdentifier>{5bb5247d-9ff6-4660-8267-cb09b662d04f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\99.Common%28공통%29\04.Portal">
+      <UniqueIdentifier>{167558b7-ebeb-4bc7-889e-8cb548cbaa50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\03.PartyRoom\01.Observer">
+      <UniqueIdentifier>{3c99b0c5-d025-41dc-ac49-b87c8eb441c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\06.BattleGround\04.Observer">
+      <UniqueIdentifier>{281580c7-568b-4337-99ed-136e70dafca9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\06.BattleGround\04.Observer\01.BulletObserver">
+      <UniqueIdentifier>{071fa0ed-2af3-4ea1-b0ae-b56a029abd59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\06.BattleGround\04.Observer\02.ItemObserver">
+      <UniqueIdentifier>{b15a2208-6cdb-4a7b-9efc-80a1a16d2855}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\99.Common%28공통%29\05.PlayerFoot">
+      <UniqueIdentifier>{d6989329-aa1e-4d4b-91c9-8e8c2979677d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\99.Common%28공통%29\05.PlayerFoot\00.Left">
+      <UniqueIdentifier>{605d3e6f-3463-4117-839f-10b64cd85734}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\99.Common%28공통%29\05.PlayerFoot\01.Right">
+      <UniqueIdentifier>{fc5d04c4-67e0-49fb-b044-6ef94537ad40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\05.PartyMaze\03.Flag">
+      <UniqueIdentifier>{9778f08d-85a6-4af1-a610-845f0bac5120}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\06.BattleGround\01.Player\00.LifeCube">
+      <UniqueIdentifier>{e0129880-cfe9-4b00-b9ab-7ff360f380e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\06.BattleGround\03.Bullet\00.BulletTail">
+      <UniqueIdentifier>{03012f9c-c748-4f2c-8b3a-d4d62ed48e92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\06.BattleGround\00.Map\00.Floor">
+      <UniqueIdentifier>{f6abb786-4ab3-4104-be5c-9649bd7f3b2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\06.BattleGround\00.Map\01.Meteor">
+      <UniqueIdentifier>{3dd886d0-9893-494a-b661-3439b5f2111a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\06.BattleGround\00.Map\01.Meteor\00.Effect">
+      <UniqueIdentifier>{4c91fd37-57c3-44f6-ad05-e8c11567517a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\06.BattleGround\04.Observer\03.MapObserver">
+      <UniqueIdentifier>{8ac4c40e-a6d4-4f5d-80a7-d4175e85dda4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\06.BattleGround\00.Map\02.House">
+      <UniqueIdentifier>{9b99f1c8-ede5-4f6d-8689-dcdd783cced2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\00.Logo\01.GameStart">
+      <UniqueIdentifier>{be843abe-5016-4c8c-8cec-6e22a1225707}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\00.Logo\02.Loading">
+      <UniqueIdentifier>{1f735c13-585f-4b15-adb5-3ab522e9299e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\06.BattleGround\01.Player\01.PlayerHit">
+      <UniqueIdentifier>{f136d078-7338-43f7-8e5c-93d6cbe4fe09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\06.BattleGround\01.Player\01.LowHp">
+      <UniqueIdentifier>{d4fe787c-5e75-49cb-b7d9-7a1c9b68e5c9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Client.cpp">
+      <Filter>소스 파일\99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일\99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MainApp.cpp">
+      <Filter>소스 파일\00.MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Player.cpp">
+      <Filter>소스 파일\02.Object\01.Stage\01.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Logo.cpp">
+      <Filter>소스 파일\01.Scene\00.Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Stage.cpp">
+      <Filter>소스 파일\01.Scene\01.Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\LogoBack.cpp">
+      <Filter>소스 파일\02.Object\00.Logo\00.LogoBack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Floor.cpp">
+      <Filter>소스 파일\02.Object\99.Common%28공통%29\03.Map\00.Floor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Wall.cpp">
+      <Filter>소스 파일\02.Object\01.Stage\00.Map\02.Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Ceiling.cpp">
+      <Filter>소스 파일\02.Object\01.Stage\00.Map\01.Ceiling%28천장%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\StaticCamera.cpp">
+      <Filter>소스 파일\02.Object\99.Common%28공통%29\02.Camera\00.StaticCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CollisionMgr.cpp">
+      <Filter>소스 파일\03.Management\00.CollisionMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MouseCol.cpp">
+      <Filter>소스 파일\03.Management\00.CollisionMgr\00.MouseCol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\TerrainCol.cpp">
+      <Filter>소스 파일\03.Management\00.CollisionMgr\01.TerrainCol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Frustum.cpp">
+      <Filter>소스 파일\03.Management\01.Frustum</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Cube.cpp">
+      <Filter>소스 파일\02.Object\01.Stage\00.Map\03.Cube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\KeyMgr.cpp">
+      <Filter>소스 파일\03.Management\02.KeyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\PartyRoom.cpp">
+      <Filter>소스 파일\01.Scene\02.PartyRoom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\UI.cpp">
+      <Filter>소스 파일\02.Object\01.Stage\02.UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MainUI.cpp">
+      <Filter>소스 파일\02.Object\99.Common%28공통%29\01.Chat\00.MainUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Chat.cpp">
+      <Filter>소스 파일\02.Object\99.Common%28공통%29\01.Chat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Tile.cpp">
+      <Filter>소스 파일\02.Object\01.Stage\00.Map\04.Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\PartyFallCube.cpp">
+      <Filter>소스 파일\02.Object\04.PartyFall\00.Map\00.PartyFallCube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\PartyFallBackground.cpp">
+      <Filter>소스 파일\02.Object\04.PartyFall\00.Map\01.PartyFallBackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\StageBackground.cpp">
+      <Filter>소스 파일\02.Object\01.Stage\00.Map\05.StageBackground</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\PartyRoomBackground.cpp">
+      <Filter>소스 파일\02.Object\03.PartyRoom\00.Map\01.Background</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CubeObserver.cpp">
+      <Filter>소스 파일\02.Object\04.PartyFall\03.Observer\00.CubeObserver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\PartyFallPlayer.cpp">
+      <Filter>소스 파일\02.Object\04.PartyFall\01.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\PartyFallNumber.cpp">
+      <Filter>소스 파일\02.Object\04.PartyFall\02.UI\00.Number%283,2,1%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\PlayerWin.cpp">
+      <Filter>소스 파일\02.Object\04.PartyFall\02.UI\01.PlayerWin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\PartyRoomFloor.cpp">
+      <Filter>소스 파일\02.Object\03.PartyRoom\00.Map\00.Floor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Font.cpp">
+      <Filter>소스 파일\02.Object\99.Common%28공통%29\00.Font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\PartyFallItem.cpp">
+      <Filter>소스 파일\02.Object\04.PartyFall\04.Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ItemObserver.cpp">
+      <Filter>소스 파일\02.Object\04.PartyFall\03.Observer\02.ItemObserver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\PartyMaze.cpp">
+      <Filter>소스 파일\01.Scene\04.PartyMaze</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ClientNetwork.cpp">
+      <Filter>소스 파일\05.ClientNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\RoundObserver.cpp">
+      <Filter>소스 파일\02.Object\04.PartyFall\03.Observer\01.RoundObserver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\FreeCamera.cpp">
+      <Filter>소스 파일\02.Object\99.Common%28공통%29\02.Camera\01.FreeCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\PartyFall.cpp">
+      <Filter>소스 파일\01.Scene\03.PartyFall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MazeWall.cpp">
+      <Filter>소스 파일\02.Object\05.PartyMaze\00.Map\01.MazeWall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\DynamicCamera.cpp">
+      <Filter>소스 파일\02.Object\99.Common%28공통%29\02.Camera\02.DynamicCamera%281인칭%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MazePlayer.cpp">
+      <Filter>소스 파일\02.Object\05.PartyMaze\01.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MazePosObserver.cpp">
+      <Filter>소스 파일\02.Object\05.PartyMaze\02.Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerLookCamera.cpp">
+      <Filter>소스 파일\02.Object\99.Common%28공통%29\02.Camera\03.PlayerLookCamera%283인칭%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MazeFloor.cpp">
+      <Filter>소스 파일\02.Object\05.PartyMaze\00.Map\02.MazeFloor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BattleGround.cpp">
+      <Filter>소스 파일\01.Scene\05.BattleGround</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BattleGroundPlayer.cpp">
+      <Filter>소스 파일\02.Object\06.BattleGround\01.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SkyBox.cpp">
+      <Filter>소스 파일\02.Object\99.Common%28공통%29\03.Map\01.SkyBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Bullet.cpp">
+      <Filter>소스 파일\02.Object\06.BattleGround\03.Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Item.cpp">
+      <Filter>소스 파일\02.Object\06.BattleGround\02.Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\PartyRoomCube.cpp">
+      <Filter>소스 파일\02.Object\03.PartyRoom\00.Map\02.Cube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Portal.cpp">
+      <Filter>소스 파일\02.Object\99.Common%28공통%29\04.Portal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\PortalObserver.cpp">
+      <Filter>소스 파일\02.Object\03.PartyRoom\01.Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BulletObserver.cpp">
+      <Filter>소스 파일\02.Object\06.BattleGround\04.Observer\01.BulletObserver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Battle_ItemObserver.cpp">
+      <Filter>소스 파일\02.Object\06.BattleGround\04.Observer\02.ItemObserver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CubePlayerLeftFoot.cpp">
+      <Filter>소스 파일\02.Object\99.Common%28공통%29\05.PlayerFoot\00.Left</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CubePlayerRightFoot.cpp">
+      <Filter>소스 파일\02.Object\99.Common%28공통%29\05.PlayerFoot\01.Right</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\EndFlag.cpp">
+      <Filter>소스 파일\02.Object\05.PartyMaze\03.Flag</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\StartFlag.cpp">
+      <Filter>소스 파일\02.Object\05.PartyMaze\03.Flag</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\LifeCube.cpp">
+      <Filter>소스 파일\02.Object\06.BattleGround\01.Player\00.LifeCube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BulletTrail.cpp">
+      <Filter>소스 파일\02.Object\06.BattleGround\03.Bullet\00.BulletTail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BattleFloor.cpp">
+      <Filter>소스 파일\02.Object\06.BattleGround\00.Map\00.Floor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Meteor.cpp">
+      <Filter>소스 파일\02.Object\06.BattleGround\00.Map\01.Meteor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MeteorEffect.cpp">
+      <Filter>소스 파일\02.Object\06.BattleGround\00.Map\01.Meteor\00.Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MapObserver.cpp">
+      <Filter>소스 파일\02.Object\06.BattleGround\04.Observer\03.MapObserver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\House.cpp">
+      <Filter>소스 파일\02.Object\06.BattleGround\00.Map\02.House</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\GameStart.cpp">
+      <Filter>소스 파일\02.Object\00.Logo\01.GameStart</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Loading.cpp">
+      <Filter>소스 파일\02.Object\00.Logo\02.Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\LowHp.cpp">
+      <Filter>소스 파일\02.Object\06.BattleGround\01.Player\01.LowHp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\PlayerHit.cpp">
+      <Filter>소스 파일\02.Object\06.BattleGround\01.Player\01.PlayerHit</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Client.h">
+      <Filter>소스 파일\99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>소스 파일\99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>소스 파일\99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\MainApp.h">
+      <Filter>소스 파일\00.MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Include.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Value.h">
+      <Filter>헤더 파일\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Enum.h">
+      <Filter>헤더 파일\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Player.h">
+      <Filter>소스 파일\02.Object\01.Stage\01.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SceneSelector.h">
+      <Filter>소스 파일\01.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Logo.h">
+      <Filter>소스 파일\01.Scene\00.Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Stage.h">
+      <Filter>소스 파일\01.Scene\01.Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\LogoBack.h">
+      <Filter>소스 파일\02.Object\00.Logo\00.LogoBack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Struct.h">
+      <Filter>헤더 파일\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Floor.h">
+      <Filter>소스 파일\02.Object\99.Common%28공통%29\03.Map\00.Floor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Wall.h">
+      <Filter>소스 파일\02.Object\01.Stage\00.Map\02.Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Ceiling.h">
+      <Filter>소스 파일\02.Object\01.Stage\00.Map\01.Ceiling%28천장%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\StaticCamera.h">
+      <Filter>소스 파일\02.Object\99.Common%28공통%29\02.Camera\00.StaticCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CollisionMgr.h">
+      <Filter>소스 파일\03.Management\00.CollisionMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\MouseCol.h">
+      <Filter>소스 파일\03.Management\00.CollisionMgr\00.MouseCol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\TerrainCol.h">
+      <Filter>소스 파일\03.Management\00.CollisionMgr\01.TerrainCol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Frustum.h">
+      <Filter>소스 파일\03.Management\01.Frustum</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Cube.h">
+      <Filter>소스 파일\02.Object\01.Stage\00.Map\03.Cube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\KeyMgr.h">
+      <Filter>소스 파일\03.Management\02.KeyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\PartyRoom.h">
+      <Filter>소스 파일\01.Scene\02.PartyRoom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\UI.h">
+      <Filter>소스 파일\02.Object\01.Stage\02.UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\MainUI.h">
+      <Filter>소스 파일\02.Object\99.Common%28공통%29\01.Chat\00.MainUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Chat.h">
+      <Filter>소스 파일\02.Object\99.Common%28공통%29\01.Chat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Tile.h">
+      <Filter>소스 파일\02.Object\01.Stage\00.Map\04.Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\PartyFallCube.h">
+      <Filter>소스 파일\02.Object\04.PartyFall\00.Map\00.PartyFallCube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\PartyFallBackground.h">
+      <Filter>소스 파일\02.Object\04.PartyFall\00.Map\01.PartyFallBackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\StageBackground.h">
+      <Filter>소스 파일\02.Object\01.Stage\00.Map\05.StageBackground</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\PartyRoomBackground.h">
+      <Filter>소스 파일\02.Object\03.PartyRoom\00.Map\01.Background</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CubeObserver.h">
+      <Filter>소스 파일\02.Object\04.PartyFall\03.Observer\00.CubeObserver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\PartyFallPlayer.h">
+      <Filter>소스 파일\02.Object\04.PartyFall\01.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\PartyFallNumber.h">
+      <Filter>소스 파일\02.Object\04.PartyFall\02.UI\00.Number%283,2,1%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\PlayerWin.h">
+      <Filter>소스 파일\02.Object\04.PartyFall\02.UI\01.PlayerWin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\PartyRoomFloor.h">
+      <Filter>소스 파일\02.Object\03.PartyRoom\00.Map\00.Floor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Font.h">
+      <Filter>소스 파일\02.Object\99.Common%28공통%29\00.Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\PartyFallItem.h">
+      <Filter>소스 파일\02.Object\04.PartyFall\04.Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ItemObserver.h">
+      <Filter>소스 파일\02.Object\04.PartyFall\03.Observer\02.ItemObserver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\PartyMaze.h">
+      <Filter>소스 파일\01.Scene\04.PartyMaze</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\ClientNetwork.h">
+      <Filter>소스 파일\05.ClientNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\RoundObserver.h">
+      <Filter>소스 파일\02.Object\04.PartyFall\03.Observer\01.RoundObserver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\FreeCamera.h">
+      <Filter>소스 파일\02.Object\99.Common%28공통%29\02.Camera\01.FreeCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\PartyFall.h">
+      <Filter>소스 파일\01.Scene\03.PartyFall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\MazeWall.h">
+      <Filter>소스 파일\02.Object\05.PartyMaze\00.Map\01.MazeWall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\DynamicCamera.h">
+      <Filter>소스 파일\02.Object\99.Common%28공통%29\02.Camera\02.DynamicCamera%281인칭%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\MazePlayer.h">
+      <Filter>소스 파일\02.Object\05.PartyMaze\01.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\MazePosObserver.h">
+      <Filter>소스 파일\02.Object\05.PartyMaze\02.Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerLookCamera.h">
+      <Filter>소스 파일\02.Object\99.Common%28공통%29\02.Camera\03.PlayerLookCamera%283인칭%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\MazeFloor.h">
+      <Filter>소스 파일\02.Object\05.PartyMaze\00.Map\02.MazeFloor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\BattleGround.h">
+      <Filter>소스 파일\01.Scene\05.BattleGround</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\BattleGroundPlayer.h">
+      <Filter>소스 파일\02.Object\06.BattleGround\01.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SkyBox.h">
+      <Filter>소스 파일\02.Object\99.Common%28공통%29\03.Map\01.SkyBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Bullet.h">
+      <Filter>소스 파일\02.Object\06.BattleGround\03.Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Item.h">
+      <Filter>소스 파일\02.Object\06.BattleGround\02.Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\PartyRoomCube.h">
+      <Filter>소스 파일\02.Object\03.PartyRoom\00.Map\02.Cube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Portal.h">
+      <Filter>소스 파일\02.Object\99.Common%28공통%29\04.Portal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\PortalObserver.h">
+      <Filter>소스 파일\02.Object\03.PartyRoom\01.Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\BulletObserver.h">
+      <Filter>소스 파일\02.Object\06.BattleGround\04.Observer\01.BulletObserver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Battle_ItemObserver.h">
+      <Filter>소스 파일\02.Object\06.BattleGround\04.Observer\02.ItemObserver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CubePlayerLeftFoot.h">
+      <Filter>소스 파일\02.Object\99.Common%28공통%29\05.PlayerFoot\00.Left</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CubePlayerRightFoot.h">
+      <Filter>소스 파일\02.Object\99.Common%28공통%29\05.PlayerFoot\01.Right</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\EndFlag.h">
+      <Filter>소스 파일\02.Object\05.PartyMaze\03.Flag</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\StartFlag.h">
+      <Filter>소스 파일\02.Object\05.PartyMaze\03.Flag</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\LifeCube.h">
+      <Filter>소스 파일\02.Object\06.BattleGround\01.Player\00.LifeCube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\BulletTrail.h">
+      <Filter>소스 파일\02.Object\06.BattleGround\03.Bullet\00.BulletTail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Meteor.h">
+      <Filter>소스 파일\02.Object\06.BattleGround\00.Map\01.Meteor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\BattleFloor.h">
+      <Filter>소스 파일\02.Object\06.BattleGround\00.Map\00.Floor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\MeteorEffect.h">
+      <Filter>소스 파일\02.Object\06.BattleGround\00.Map\01.Meteor\00.Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\MapObserver.h">
+      <Filter>소스 파일\02.Object\06.BattleGround\04.Observer\03.MapObserver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\House.h">
+      <Filter>소스 파일\02.Object\06.BattleGround\00.Map\02.House</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\GameStart.h">
+      <Filter>소스 파일\02.Object\00.Logo\01.GameStart</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Loading.h">
+      <Filter>소스 파일\02.Object\00.Logo\02.Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\LowHp.h">
+      <Filter>소스 파일\02.Object\06.BattleGround\01.Player\01.LowHp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\PlayerHit.h">
+      <Filter>소스 파일\02.Object\06.BattleGround\01.Player\01.PlayerHit</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

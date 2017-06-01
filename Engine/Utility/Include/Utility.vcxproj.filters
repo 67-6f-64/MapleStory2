@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99.Export">
+      <UniqueIdentifier>{0d70219a-11b8-4527-8340-4a3ecebdc770}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Management">
+      <UniqueIdentifier>{cf5c80b6-6497-40cc-a841-86c3ff29ad3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Renderer">
+      <UniqueIdentifier>{07b95973-b51e-47bf-9270-0ddbbe0870d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.SuperClass">
+      <UniqueIdentifier>{9519a51b-92d0-45b1-9f5a-6b4505f84982}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.SuperClass\00.Scene">
+      <UniqueIdentifier>{18491d59-d03b-4160-985a-1163ebf39e97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Manager">
+      <UniqueIdentifier>{ba2c0b18-092b-4e49-8247-74bb8f9eb49d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Design">
+      <UniqueIdentifier>{0f395638-b448-4a53-8ae3-20b30adf66f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Design\00.Observer">
+      <UniqueIdentifier>{cf74278c-cabd-427a-a39d-337de599d459}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Design\00.Observer\00.Observer">
+      <UniqueIdentifier>{5babe6ba-b910-454a-89e0-a9ae3f972e49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Design\00.Observer\01.Subject">
+      <UniqueIdentifier>{4c78d76a-839c-4ceb-9d25-c837ce530219}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Design\01.Bridge">
+      <UniqueIdentifier>{22ddfed6-68b4-4472-90ed-4968a73d57b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Manager\00.MathMgr">
+      <UniqueIdentifier>{bf31a3fd-a95d-4ef9-9b11-aa694cb9aea0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Manager\01.Pipeline">
+      <UniqueIdentifier>{6f513c7b-5fca-4f9a-88ff-e89513c50cf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Design\00.Observer\01.Subject\InfoSubject">
+      <UniqueIdentifier>{95268d8c-1332-47b6-b4b2-ef3dadf7bdbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.SuperClass\02.GameObject">
+      <UniqueIdentifier>{f1de558a-e27c-4123-be5c-42b624042034}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.SuperClass\02.GameObject\00.Camera">
+      <UniqueIdentifier>{8327d5f9-0e2a-4b49-a63c-e62cc371024e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.SuperClass\03.Component">
+      <UniqueIdentifier>{1075a61f-9789-4c82-b388-f75999c44f52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.SuperClass\03.Component\00.Transform">
+      <UniqueIdentifier>{44e1c7e2-0088-42a6-a32f-31a5f21470b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.SuperClass\03.Component\02.Frame">
+      <UniqueIdentifier>{e33ef435-8a3d-434e-b92a-4f0aaa02526a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.SuperClass\03.Component\01.Collision">
+      <UniqueIdentifier>{c5c2598c-2d76-4266-bf9a-9c17853294ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.SuperClass\01.Layer">
+      <UniqueIdentifier>{50eb3b8b-6778-48d3-99a2-3dd5adfd56e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Network">
+      <UniqueIdentifier>{1de9e864-cf7e-43ed-9d79-0729ab0fbbe0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Code\Renderer.cpp">
+      <Filter>01.Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Management.cpp">
+      <Filter>00.Management</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Component.cpp">
+      <Filter>02.SuperClass\03.Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Layer.cpp">
+      <Filter>02.SuperClass\01.Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\GameObject.cpp">
+      <Filter>02.SuperClass\02.GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Transform.cpp">
+      <Filter>02.SuperClass\03.Component\00.Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MathMgr.cpp">
+      <Filter>03.Manager\00.MathMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Pipeline.cpp">
+      <Filter>03.Manager\01.Pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Observer.cpp">
+      <Filter>04.Design\00.Observer\00.Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Subject.cpp">
+      <Filter>04.Design\00.Observer\01.Subject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Frame.cpp">
+      <Filter>02.SuperClass\03.Component\02.Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\InfoSubject.cpp">
+      <Filter>04.Design\00.Observer\01.Subject\InfoSubject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Camera.cpp">
+      <Filter>02.SuperClass\02.GameObject\00.Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Collision.cpp">
+      <Filter>02.SuperClass\03.Component\01.Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Scene.cpp">
+      <Filter>02.SuperClass\00.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Network.cpp">
+      <Filter>05.Network</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Export\Export_Utility.h">
+      <Filter>99.Export</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Renderer.h">
+      <Filter>01.Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Management.h">
+      <Filter>00.Management</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Component.h">
+      <Filter>02.SuperClass\03.Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Layer.h">
+      <Filter>02.SuperClass\01.Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\GameObject.h">
+      <Filter>02.SuperClass\02.GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Transform.h">
+      <Filter>02.SuperClass\03.Component\00.Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\MathMgr.h">
+      <Filter>03.Manager\00.MathMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Pipeline.h">
+      <Filter>03.Manager\01.Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Observer.h">
+      <Filter>04.Design\00.Observer\00.Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Subject.h">
+      <Filter>04.Design\00.Observer\01.Subject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Frame.h">
+      <Filter>02.SuperClass\03.Component\02.Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\InfoSubject.h">
+      <Filter>04.Design\00.Observer\01.Subject\InfoSubject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Camera.h">
+      <Filter>02.SuperClass\02.GameObject\00.Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Collision.h">
+      <Filter>02.SuperClass\03.Component\01.Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Scene.h">
+      <Filter>02.SuperClass\00.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Network.h">
+      <Filter>05.Network</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Export\Export_Utility.inl">
+      <Filter>99.Export</Filter>
+    </None>
+  </ItemGroup>
+</Project>
